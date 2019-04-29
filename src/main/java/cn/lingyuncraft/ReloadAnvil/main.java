@@ -30,14 +30,11 @@ public final class main extends JavaPlugin implements Listener {
                 public void run(){
                     Material TrueType = ANVIL;
                     World World = Bukkit.getWorld("world");
-                     while(true){
                          Material Type = e.getChangedType();
                          World TrueWorld = e.getBlock().getWorld();
                           if (Type == TrueType & World ==TrueWorld ){
                                   e.getBlock().setType(TrueType);
                                  Bukkit.broadcastMessage("铁砧已被自动修复") ;
-                                  
-                          }
                      }
                  }
             }.run();
