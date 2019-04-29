@@ -1,0 +1,4 @@
+name: ReloadAnvil
+version: ${project.version}
+main: cn.lingyuncraft.ReloadAnvil.main
+authors: [shaokeyibb]
